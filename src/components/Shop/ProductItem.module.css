@@ -1,0 +1,39 @@
+.item{
+     background-color: white;
+     width: 60%;
+     margin: 20px auto;
+     padding: 20px;
+     border-radius: 10px;
+}
+.item header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.price{
+     font-size: 25px;
+     background-color: #272727;
+     padding: 10px 20px;
+     border-radius: 50px;
+     color: white;
+}
+.item h3{
+     font-size: 30px;
+}
+.item p{
+     font-size: 18px;
+     margin: 5px 0px;
+     font-weight: 200;
+}
+.actions {
+     display: flex;
+     justify-content: end;
+}
+.actions button{
+     font-size: 20px;
+     padding: 10px;
+     background-color: transparent;
+     color: rgb(1, 213, 213);
+     border: 2px solid rgb(1, 213, 213);
+     border-radius: 10px;
+}

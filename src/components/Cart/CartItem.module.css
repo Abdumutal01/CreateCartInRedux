@@ -1,0 +1,39 @@
+.item{
+     color: white;
+}
+.item header{
+     margin: 10px 0px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.item h3{
+     font-size: 30px;
+}
+.price{
+     font-size: 30px;
+}
+.itemprice{
+     font-size: 18px;
+     font-style: italic;
+}
+.details{
+     display: flex;
+     justify-content: space-between;
+}
+.quantity{
+     font-size: 25px;
+}
+.actions{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+.actions button{
+     font-size: 20px;
+     padding: 5px 20px;
+     background: transparent;
+     border: 1px solid white;
+     color: white;
+     border-radius: 5px;
+}
