@@ -11,13 +11,13 @@ function Product(props) {
     },
     {
       id: "p2",
-      price: 5,
+      price: 3,
       title: "Shashlik",
       description: "Kabob"
     },
     {
       id: "p3",
-      price: 2,
+      price: 4,
       title: "Norin",
       description: "Norin"
     },

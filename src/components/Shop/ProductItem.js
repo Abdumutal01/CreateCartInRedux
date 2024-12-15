@@ -7,14 +7,17 @@ function ProductItem(props) {
      const { title, price, description, id } = props
      const dispatch = useDispatch()
 
-     const addToCartHandler = (id,title, price,description) => {
-          dispatch(cartActions.addItemToCart({
-               id,
-               title,
-               price,
-               description
-          }))
+     const addToCartHandler = (id, title, price, description) => {
+          dispatch(
+               cartActions.addItemToCart({
+                    id,
+                    title,
+                    price,
+                    description
+               })
+          )
      }
+      
      return (
           <li className={classes.item}>
                <Card>
@@ -25,7 +28,7 @@ function ProductItem(props) {
                     <p>{description}</p>
                     <div className={classes.actions}>
                          <button
-                              onClick={()=> addToCartHandler(id, title, price, description)}
+                              onClick={() => addToCartHandler(id, title, price, description)}
                          >
                               Add To Cart
                          </button>
